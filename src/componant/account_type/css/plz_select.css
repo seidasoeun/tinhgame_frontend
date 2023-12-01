@@ -1,0 +1,14 @@
+#select_body{
+    width: 920px;
+    height: 750px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px ) {
+    #select_body{
+        width: 100%;
+    }
+}

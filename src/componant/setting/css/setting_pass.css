@@ -1,0 +1,51 @@
+#main{
+    width: 100%;
+    height: 100%;
+}
+.containers{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 0px;
+}
+hr{
+    margin: 0;
+}
+#pass_p{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.form-floating{ 
+    width: 70%;     /* width box */
+    height: 60px;   /* kom lead knea */ 
+    margin-left: 40px;
+}
+.form-floating>.form-control, .form-floating>.form-control-plaintext, .form-floating>.form-select {
+    height: 44px;  /* height box */
+}
+.form-floating>.form-control-plaintext:focus, .form-floating>.form-control-plaintext:not(:placeholder-shown), .form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+#pass_btn{
+    background-color: rgb(22, 119, 255);
+    border: 1px solid rgb(22, 119, 255);
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+.mb-3 {
+    margin-bottom: 0rem!important;
+}
+
+@media only screen and (max-width:650px) {
+    .containers{
+        width: 100%;
+    }
+    .form-floating{
+        width: 70%;
+    }
+}

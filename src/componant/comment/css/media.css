@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px ) {
+    #com_profile img{
+        width: 20px;
+    }
+    #text_description{
+        opacity: 100%;
+    }
+    #com_reply #link_reply{
+        opacity: 100%;
+    }
+}

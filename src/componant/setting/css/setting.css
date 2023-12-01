@@ -1,0 +1,115 @@
+#main_Setting{
+    width: 100%;
+    height: 100%;    
+}
+.container{
+    background-color: rgb(133, 128, 128);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.container .row{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.container .row .col-3{
+    background-color: #dadfe0;
+    height: 100%;
+    width: 25%;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0;
+}
+.container .row .col{
+    background-color:white;
+    width: 75%;
+    height: 100%;
+    float: left;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#c1{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+}
+.link_edit{
+    margin: 14px;
+}
+.link_pass{
+    margin: 14px;
+}
+#c1_text{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px 0 0 0;
+}
+#c1_text #p{
+    margin-top: 19px;
+    margin-left: 5px;
+}
+#c1_text #setting_back img{
+    width: 15px;
+    height: 15px;
+    margin: 22px 10px;
+}
+#c1_text #p{
+    opacity: 50%;
+}
+a{
+    text-decoration: none;
+    color: 	#34495E;
+}
+#button{
+    margin-top: 20px;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: red;
+    font-weight: 50px;
+    background-color: white;
+}
+#c1:hover{
+    background-color: rgba(43, 0, 255, 0.037);
+    border-left: 3px solid rgba(2, 69, 255, 0.551);
+}
+a:hover{
+    color: #3498DB;
+}
+
+@media only screen and (max-width:600px) {
+    .container{
+        width: 100%;
+        height: 500px;
+    }
+    #p{
+        font-size: 10px;
+    }
+    a{
+        font-size: 10px;
+    }
+    #button{
+        width: 80%;
+        height: 30px;
+    }
+    #c1 .link_pass{
+        width: 100%;
+        font-size: 5px;
+
+    }
+
+    .link_edit{
+        font-size: 8px;
+    }
+}
+
+
+

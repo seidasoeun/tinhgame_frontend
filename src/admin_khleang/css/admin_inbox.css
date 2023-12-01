@@ -1,0 +1,173 @@
+#inbox_body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* BOX */
+#inbox_box{
+    width: 98%;
+    height: 120px;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: aliceblue;
+
+    display: flex;
+    flex-direction: row;
+}
+#inbox_box:hover{
+    border: 2px solid black;
+    opacity: 90%;
+}
+
+/* profile */
+#inbox_profile{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inbox_profile img{
+    width: 100%;
+    height: 100%;
+}
+
+/* box body */
+#inbox_mid{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#inbox_mid #info{
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+}
+#inbox_mid #info #info_box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info_box{
+    margin-bottom: 5px;
+}
+
+#inbox_mid #mes_box{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+#inbox_mid #mes_box #info_box2{
+    width: 25%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box_foot{
+    width: 10%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+#foot_btn{
+    width: 100%;
+    height: 33%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* bootstrap */
+.btn{
+    width: 78px;
+}
+
+/* In Modal */
+#update_modal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#update_modal p{
+    margin-bottom: 7px;
+}
+#update_modal #ip{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #BDC3C7;
+    outline: none;
+}
+
+/* Modal */
+/* .modal.show .modal-dialog{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-dialog{
+    max-width: none;
+    margin: 0;
+}
+.modal-content{
+    width: 700px;
+    height: 500px;
+}
+.modal-header{
+    display: block;
+}
+
+.modal.fade .modal-dialog{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#m_body{
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+@media only screen and (max-width: 600px ) {
+    #inbox_profile{
+        width: 20%;
+    }
+    #inbox_mid{
+        width: 80%;
+    }
+    #info{
+        font-size: 8px;
+    }
+    #mes_box{
+        font-size: 8px;
+    }
+    #box_foot{
+        width: 20%;
+    }
+    #box_foot button{
+        width: 100%;
+        font-size: 8px;
+    }
+}

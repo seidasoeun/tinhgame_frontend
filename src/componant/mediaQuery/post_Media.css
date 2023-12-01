@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+  .post_body {
+    width: 100%;
+    height: 1100px;
+  }
+  .post_body #post_body_head {
+    width: 200px;
+    height: 50px;
+  }
+  .post_body #post_textarea {
+    width: 280px;
+  }
+  .post_body #post_photo {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .post_body #post_box_location {
+    width: 100px;
+    height: 20px;
+  }
+  .post_body #button #post_button {
+    width: 100px;
+    height: 50px;
+  }
+
+
+  /* COC */
+  .coc_textarea{
+    width: 100%;
+  }
+
+  /* GT */
+  #coc_ip{
+    width: 100%;
+  }
+  #coc_ip{
+    width: 100%;
+  }
+  .gt_acc{
+    width: 50%;
+  }
+  .gt_gmail{
+    margin-left: 80px;
+  }
+
+  /* MLBB */
+  .mlbb_gmail{
+    margin-left: 100px;
+  }
+  #mlbb_p{
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=post_MediaQuery.css.map */

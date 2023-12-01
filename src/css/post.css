@@ -1,0 +1,83 @@
+/* not use , use in componant css */
+.post_body {
+    margin: auto;
+    width: 70%;
+    height: 900px;
+    background-color: white;
+    margin-top: 25px;
+  }
+  .post_body #head_post_body {
+    padding: 0px 10px;
+    margin: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .post_body #post_body_head {
+    padding-top: 15px;
+    display: flex;
+  }
+  .post_body #post_body_head a img {
+    height: 15px;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+  }
+  .post_body .post_form {
+    padding-left: 20px;
+  }
+  .post_body .post_form #p_arrow img {
+    width: 60px;
+    height: 60px;
+  }
+  .post_body .post_form p {
+    margin: 15px 0px;
+  }
+  .post_body .post_form #post_box {
+    width: 200px;
+    height: 24px;
+    border: 1px solid #BDC3C7;
+    background-color: #e6ebef;
+  }
+  .post_body .post_form #post_textarea {
+    border: 1px solid #BDC3C7;
+    background-color: #e6ebef;
+    max-width: 465px;
+    max-height: 166px;
+  }
+  .post_body .post_form #post_photo {
+    width: 90%;
+    height: 160px;
+    background-color: #e6ebef;
+    display: flex;
+  }
+  .post_body .post_form #post_photo #post_photo_box {
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    margin: 9px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .post_body .post_form #post_photo #post_photo_box img {
+    width: 100%;
+    height: 100%;
+  }
+  .post_body .post_form #post_box_location {
+    width: 310px;
+    height: 28px;
+    border: 1px solid #BDC3C7;
+    background-color: #e6ebef;
+  }
+  .post_body .post_form #button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .post_body .post_form #button #post_button {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+  }
+

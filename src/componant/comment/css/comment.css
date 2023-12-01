@@ -1,0 +1,162 @@
+#comment2_body{
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+    overflow-y: auto;
+
+}
+
+/* card */
+#com_card{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+    /* profile */
+#com_profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+#com_profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+    /* Content */
+#com_content_body{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+#com_content{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+#com_reply #link_reply{
+    color: rgb(67, 67, 67);
+    opacity: 70%;
+    margin-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#com_reply #link_reply:hover{
+    border-radius: 5px;
+    background-color: rgb(164, 164, 164);
+}
+#link_viewreply{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#reply_popup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+#reply_ip_body{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+#reply{
+    width: 90%;
+    height: 37px;
+    border-bottom: 2px solid black;
+    margin: 0 5px;
+    outline: none;
+    resize: none;
+    padding-top: 3px;
+    background-color: rgb(243, 243, 243);
+    border-left: 2px solid rgb(243, 243, 243) ;
+    border-top: 2px solid rgb(243, 243, 243);
+    border-right: 2px solid rgb(243, 243, 243);
+}
+#reply_btn{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+#reply_btn button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+#reply_btn button:hover{
+    background-color: gray;
+    color: white;
+}
+        /* name profile */
+#com_nameprofile{
+    width: auto;
+    height: auto;
+
+}
+#text_nameprofile{
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#text_description{
+    opacity: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#text_time{
+    opacity: 60%;
+    color: darkgrey;
+}
+
+
+/* More */
+#com_more{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Modal */
+#modal_comment{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal_comment .modal-content{
+    width: 300px;
+    height: 200px;
+}
+
+#modal_comment_text{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px ) {
+    #com_profile img{
+        width: 20px;
+    }
+    #text_description{
+        opacity: 100%;
+    }
+    #com_reply #link_reply{
+        opacity: 100%;
+    }
+}

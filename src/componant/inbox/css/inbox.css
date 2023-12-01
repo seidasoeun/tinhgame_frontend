@@ -1,0 +1,174 @@
+#inbox_body2{
+    width: 1433px;
+    height: 745px;
+    background-color: #0F1E39;
+}
+
+/* head */
+#inbox_head{
+    width: 100%;
+    height: 10%;
+}
+
+#head_left{
+    width: 15%;
+    height: 100%;
+    float: left;
+    border-radius: 0 0 50% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head_right{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#head_right #span{
+    margin-left: 10px;
+    color: white;
+    opacity: 50%;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+/* body */
+#inbox_b{
+    width: 100%;
+    height: 90%;
+}
+#box{
+    width: 96%;
+    height: 120px;
+    margin: 25px;
+    opacity: 90%;
+    background-color: #152a52;
+}
+#box:hover{
+    opacity: 50%;
+}
+#pic{
+    width: 13%;
+    height: 100%;
+    float: left;
+}
+#pic img{
+    width: 100%;
+    height: 100%;
+}
+
+#box_body{
+    width: 72%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+#box_body #up{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+#box_body #down{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#co_box{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rad{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(15, 208, 15);
+}
+#box_text{
+    color: white;
+    margin-left: 25px;
+}
+#box_text2{
+    color: white;
+}
+
+/* Foot */
+#box_foot{
+ width: 15%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#box_text2{
+    font-size: 15px;
+}
+
+/* Modal */
+#m_head{
+    width: 470px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#m_head_box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.rad{
+    float: left;
+}
+#m_body{
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+@media only screen and (max-width: 600px ) {
+    #inbox_head{
+        height: 80px;
+    }
+    #inbox_body2{
+        width: 100%;
+        height: 925px;
+    }
+    #inbox_b{
+        width: 100%;
+    }
+    #box{
+        width: 90%;
+        margin: 15px;
+    }
+
+    #box_text{
+        font-size: 8px;
+    }
+    #box_text2{
+        font-size: 10px;
+    }
+
+    #pic{
+        width: 20%;
+    }
+    #box_body{
+        width: 60%;
+    }
+    #box_foot{
+        width: 20%;
+    }
+
+
+}

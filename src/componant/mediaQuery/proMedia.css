@@ -1,0 +1,102 @@
+@media only screen and (max-width: 650px) {
+  .p_head {
+    width: 480px;
+    height: 80px;
+    display: inline;
+    
+  }
+  .p_head .logo {
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  .p_head .logo img {
+    width: 70px;
+    height: 60px;
+  }
+  .p_head .search {
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  .p_head .search .list {
+    display: flex;
+  }
+  .p_head .search .list .dropdown {
+    width: 50%;
+  }
+  .p_head .search .list input[type=submit] {
+    width: 50%;
+  }
+  .p_head .icon {
+    width: 25%;
+    height: 100%;
+    float: left;
+  }
+  .p_head .icon a {
+    width: 33%;
+    height: 30px;
+  }
+  .p_head .icon a img {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  .p_head .post {
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  .p_head .post a {
+    width: 100%;
+    height: 100%;
+  }
+  .p_head .post a button {
+    margin-top: 20px;
+    width: 60px;
+  }
+
+  /* BODY */
+
+  .p_body {
+    width: 100%;
+    padding: 10px 30px;
+  }
+  .p_body_info{
+    padding-top: 20px;
+    width: 100%;
+  }
+  .p_body .pic {
+    margin-top: 35px;
+    width: 35%;
+    margin: 0;
+  }
+  .p_body .pic #pic_profile{
+    width: 80px;
+    height: 80px;
+  }
+  .p_body .pic #pic_p{
+    font-size: 15px;
+  }
+  .p_body .info {
+    width: 65%;
+    height: 150px;
+    margin-top: 30px;
+    font-size: 14px;
+    margin: 0;
+  }
+  .link{
+    width: 100%;
+  }
+  .link a {
+    margin: 10px 20px;
+  }
+  .foot {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    border-radius: 5px;
+  }
+}
+
+/*# sourceMappingURL=MediaQuery.css.map */

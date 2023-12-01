@@ -1,0 +1,292 @@
+
+body{
+    margin: 0;
+}
+main{
+    background-color: #0F1E39;
+    margin: 0;
+}
+
+/*------------------- HEAD -------------------*/
+
+.p_head{
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid #0F1E39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(37,57,84);
+    background: linear-gradient(180deg, rgba(37,57,84,1) 0%, #0F1E39);
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+    float: left;
+    margin-right: 100px;
+}
+
+.search{
+    margin-bottom: 10px;
+}
+.list{
+    margin: 0;
+    padding: 0;
+}
+.list select,.head_btn{
+    border: 1px solid white;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    float: left;
+}
+.dropdown{
+    background-color: #ECF0F1;
+    border-radius:  10px 0px 0px 10px;
+}
+.head_btn{
+    background-color: #BDC3C7;
+    border-radius:  0px 10px 10px 0px;
+    width: 200px;
+}
+.search{
+    padding-top: 15px;
+}
+
+.icon{
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.icon #icon_mid{
+    margin: 0 10px 0 10px;
+}
+
+.global img{
+    width: 50px;
+    height: 50px;
+}
+.heart img{
+    width: 40px;
+    height: 40px;
+    margin: 0px 15px;
+}
+.profile svg{
+    margin-right: 7px;
+}
+.inbox svg{
+    width: 40px;
+    height: 50px;
+}
+#inbox_len{
+    color: red;
+}
+.post{
+    float: left;
+}
+.post button{
+    width: 75px;
+    height: 33px;
+    border-radius: 5px ;
+    border: 1px solid white;
+    background-color: orange;
+    color: white;
+    margin: 0px 30px;
+    margin-top: 10px;
+}
+
+/*------------------- BODY -------------------*/
+
+.p_body{
+    /* float: left; */
+    width: 100%;
+    height: 200px;
+    background-color: #0F1E39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #BDC3C7;
+}
+.p_body_info{
+    float: left;
+    width: 50%;
+}
+.p_body img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.p_body a{
+    text-decoration: none;
+    color: #3498DB;
+}
+.pic{
+    color: white;
+    float: left;
+}
+.info{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+}
+.info p{
+    margin: 8px;
+}
+
+
+.link{
+    width: 100%;
+    height: 40px;
+    background-color: #0F1E39;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+.link a{
+    margin: 10px 50px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    list-style: none;
+}
+.link a:hover{
+    border-bottom: 2px solid #3498DB;
+    margin-bottom: 5px;
+    color: #3498DB;   
+}
+#post:hover{
+    border-style: none;
+}
+#favorite:hover{
+    border-style: none;
+}
+#setting:hover{
+    border-style: none;
+}
+
+
+/*------------------- FOOT -------------------*/
+
+.foot{
+    width: 900px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+.foot::-webkit-scrollbar{
+    width: 0;
+}
+
+/*  hover  */
+
+
+@media only screen and (max-width: 600px ) {
+    .p_head{
+        width: 100%;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        margin: 0;
+    }
+    .list{
+        width: 160px;
+    }
+    .search{
+        width: 130px;
+    }
+    #select{
+        width: 65px;
+    }
+    #search{
+        width: 65px;
+    }
+
+    .icon{
+        width: 120px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+        .global{
+            width: 20px;
+            height: 20px;
+        }
+        .global svg{
+            width: 20px;
+            height: 20px;
+        }
+        .profile{
+            width: 20px;
+            height: 20px;           
+        }
+        .profile svg{
+            width: 20px;
+            height: 20px;           
+        }
+        .inbox{
+            width: 20px;
+            height: 20px;
+        }
+        .inbox svg{
+            width: 20px;
+            height: 20px;
+        }
+        #icon_mid{
+            width: 20px;
+            height: 20px;
+            margin: 0px;
+        }
+        #icon_mid svg{
+            width: 20px;
+            height: 20px;
+            margin: 0px;
+        }
+
+    .post{
+        width: 90px;
+    }
+    .post a{
+        width: 90px;
+    }
+    .post button{
+        width: 70px;
+        height: 30px;
+        margin: 0;
+    }
+
+    /* profile */
+    .p_body{
+        width: 100%;
+    }
+    .p_body_info{
+        width: 70%;
+    }
+    .link a{
+        width: 33.33%;
+    }
+    .foot{
+        width: 100%;
+    }
+    .pic{
+        width: 50%;
+    }
+    #pic_profile{
+        width: 90%;
+    }
+    .info{
+        width: 50%;
+        margin: 0;
+    }
+}
+

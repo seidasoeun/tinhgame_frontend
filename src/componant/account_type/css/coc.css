@@ -1,0 +1,54 @@
+.form_type_game{
+    width: 100%;
+    height: 700px;
+}
+form .p{
+    margin-bottom: 5px;
+}
+
+/* tectarea */
+.coc_textarea{
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    border-radius: 3px;
+}
+/* title */
+#ip_title{
+    margin-bottom: 10px;
+}
+
+/* ip */
+.coc_ip{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #BDC3C7;
+    outline: none;
+    padding: 3px;
+}
+
+
+/*------ GT -------*/
+#gt_acc{
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+#gt_gmail{
+    width: 30%;
+    float: left;
+}
+
+/* Modal */
+/* .modal-body{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+#modal_text{
+    float: left;
+    font-size: 20px;
+    margin-right: 10px;
+}
